@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Profissoes>
+	<Profissao>
+		<Codigo>1</Codigo>
+		<Descricao>Administrador </Descricao>
+		<Situacao>1</Situacao>
+	</Profissao>
+	<Profissao>
+		<Codigo>2</Codigo>
+		<Descricao> Contador </Descricao>
+		<Situacao>1</Situacao>
+	</Profissao>
+	<Profissao>
+		<Codigo>3</Codigo>
+		<Descricao> Engenheiro de Produção </Descricao>
+		<Situacao>1</Situacao>
+	</Profissao>
+	<Profissao>
+		<Codigo>4</Codigo>
+		<Descricao> Engenheiro de Computação </Descricao>
+		<Situacao>1</Situacao>
+	</Profissao>
+	<Profissao>
+		<Codigo>5</Codigo>
+		<Descricao> Economista </Descricao>
+		<Situacao>1</Situacao>
+	</Profissao>
+</Profissoes>

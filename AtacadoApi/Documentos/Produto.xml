@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Produtos>
+	<Produto>
+		<Codigo>1</Codigo>
+		<CodigoSubCategoria>2</CodigoSubCategoria>
+		<CodigoCategoria>3</CodigoCategoria>
+		<Descricao>ISO Protein Zero Carb (900g) - Integralmédica</Descricao>
+		<Situacao>1</Situacao>
+	</Produto>
+	<Produto>
+		<Codigo>2</Codigo>
+		<CodigoSubCategoria>2</CodigoSubCategoria>
+		<CodigoCategoria>3</CodigoCategoria>
+		<Descricao>Whey Protein - Extreme Whey Protein Solaris</Descricao>
+		<Situacao>1</Situacao>
+	</Produto>
+	<Produto>
+		<Codigo>3</Codigo>
+		<CodigoSubCategoria>2</CodigoSubCategoria>
+		<CodigoCategoria>3</CodigoCategoria>
+		<Descricao>Pro Muscle - Probiótica</Descricao>
+		<Situacao>1</Situacao>
+	</Produto>
+	<Produto>
+		<Codigo>4</Codigo>
+		<CodigoSubCategoria>2</CodigoSubCategoria>
+		<CodigoCategoria>3</CodigoCategoria>
+		<Descricao>Micellar Pro (Protein Time-Release) - Atlhetica Evolution</Descricao>
+		<Situacao>1</Situacao>
+	</Produto>
+	<Produto>
+		<Codigo>5</Codigo>
+		<CodigoSubCategoria>2</CodigoSubCategoria>
+		<CodigoCategoria>3</CodigoCategoria>
+		<Descricao>Elite Fusion 7 - Dymatize</Descricao>
+		<Situacao>1</Situacao>
+	</Produto>
+</Produtos>

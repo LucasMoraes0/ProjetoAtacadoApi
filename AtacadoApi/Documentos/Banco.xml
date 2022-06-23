@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bancos>
+	<Banco>
+		<Codigo>1</Codigo>
+		<CodigoBanco>001</CodigoBanco>
+		<Descricao>Banco do Brasil S.A.</Descricao>
+		<Situacao>1</Situacao>
+	</Banco>
+	<Banco>
+		<Codigo>2</Codigo>
+		<CodigoBanco>033</CodigoBanco>
+		<Descricao>Banco Santander (Brasil) S.A.</Descricao>
+		<Situacao>1</Situacao>
+	</Banco>
+	<Banco>
+		<Codigo>3</Codigo>
+		<CodigoBanco>104</CodigoBanco>
+		<Descricao>Caixa Econômica Federal.</Descricao>
+		<Situacao>1</Situacao>
+	</Banco>
+	<Banco>
+		<Codigo>4</Codigo>
+		<CodigoBanco>237</CodigoBanco>
+		<Descricao>Banco Bradesco S.A.</Descricao>
+		<Situacao>1</Situacao>
+	</Banco>
+	<Banco>
+		<Codigo>6</Codigo>
+		<CodigoBanco>341</CodigoBanco>
+		<Descricao>Banco Itaú S.A.</Descricao>
+		<Situacao>1</Situacao>
+	</Banco>
+</Bancos>

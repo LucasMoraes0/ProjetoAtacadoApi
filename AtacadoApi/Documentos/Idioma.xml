@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Idiomas>
+	<Idioma>
+		<Codigo>1</Codigo>
+		<Abreviacao>PT</Abreviacao>
+		<Descricao>Português (Brasil)</Descricao>
+		<Situacao>1</Situacao>
+	</Idioma>
+	<Idioma>
+		<Codigo>2</Codigo>
+		<Abreviacao>PL</Abreviacao>
+		<Descricao> Norueguês (Nynorsk) </Descricao>
+		<Situacao>1</Situacao>
+	</Idioma>
+	<Idioma>
+		<Codigo>3</Codigo>
+		<Abreviacao>RU</Abreviacao>
+		<Descricao>Romeno (República da Moldávia)</Descricao>
+		<Situacao>1</Situacao>
+	</Idioma>
+	<Idioma>
+		<Codigo>4</Codigo>
+		<Abreviacao>ES-GT</Abreviacao>
+		<Descricao> Espanhol (México) </Descricao>
+		<Situacao>1</Situacao>
+	</Idioma>
+	<Idioma>
+		<Codigo>5</Codigo>
+		<Abreviacao>UK-RU</Abreviacao>
+		<Descricao> Turco</Descricao>
+		<Situacao>1</Situacao>
+	</Idioma>
+</Idiomas>

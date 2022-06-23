@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Categorias>
+	<Categoria>
+		<Codigo>1</Codigo>
+		<Descricao>Pães</Descricao>
+		<Situacao>1</Situacao>
+	</Categoria>
+	<Categoria>
+		<Codigo>2</Codigo>
+		<Descricao>Suplementos</Descricao>
+		<Situacao>1</Situacao>
+	</Categoria>
+	<Categoria>
+		<Codigo>3</Codigo>
+		<Descricao>Sopas e Cremes</Descricao>
+		<Situacao>1</Situacao>
+	</Categoria>
+	<Categoria>
+		<Codigo>4</Codigo>
+		<Descricao>Frios e Embutidos</Descricao>
+		<Situacao>1</Situacao>
+	</Categoria>
+	<Categoria>
+		<Codigo>5</Codigo>
+		<Descricao>Carnes</Descricao>
+		<Situacao>1</Situacao>
+	</Categoria>
+</Categorias>
