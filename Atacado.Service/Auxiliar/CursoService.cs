@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Auxiliar
 {
-    public class CursoService : BaseAncestralService<CursoPoco>
+    public class CursoService : BaseAncestralService<CursoPoco, Curso>
     {
         private CursoMapper mapConfig;
         private CursoDao dao;

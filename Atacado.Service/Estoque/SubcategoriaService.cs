@@ -12,7 +12,7 @@ using Atacado.Dal.Estoque;
 
 namespace Atacado.Service.Estoque
 {
-    public class SubcategoriaService : BaseAncestralService<SubcategoriaPoco>
+    public class SubcategoriaService : BaseAncestralService<SubcategoriaPoco, Subcategoria>
     {
         private SubcategoriaMapper mapConfig;
         private SubcategoriaDao dao;

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Auxiliar
 {
-    public class IdiomaService : BaseAncestralService<IdiomaPoco>
+    public class IdiomaService : BaseAncestralService<IdiomaPoco, Idioma>
     {
         private IdiomaMapper mapConfig;
         private IdiomaDao dao;

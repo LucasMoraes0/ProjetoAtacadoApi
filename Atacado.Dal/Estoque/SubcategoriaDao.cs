@@ -10,6 +10,8 @@ namespace Atacado.Dal.Estoque
 {
     public class SubcategoriaDao : BaseAncestralDao<Subcategoria>
     {
+
+
         public SubcategoriaDao() : base()
         { }
 

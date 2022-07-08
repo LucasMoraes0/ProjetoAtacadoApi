@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Auxiliar
 {
-    public class BancoService : BaseAncestralService<BancoPoco>
+    public class BancoService : BaseAncestralService<BancoPoco, Banco>
     {
         private BancoMapper mapConfig;
         private BancoDao dao;

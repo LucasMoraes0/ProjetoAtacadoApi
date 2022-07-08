@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Auxiliar
 {
-    public class AreaConhecimentoService : BaseAncestralService<AreaConhecimentoPoco>
+    public class AreaConhecimentoService : BaseAncestralService<AreaConhecimentoPoco, AreaConhecimento>
     {
         private AreaConhecimentoMapper mapConfig;
         private AreaConhecimentoDao dao;

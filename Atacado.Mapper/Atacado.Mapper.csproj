@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <Compile Remove="IBGE\**" />
-    <Compile Remove="RH\**" />
     <EmbeddedResource Remove="IBGE\**" />
-    <EmbeddedResource Remove="RH\**" />
     <None Remove="IBGE\**" />
-    <None Remove="RH\**" />
   </ItemGroup>
 
   <ItemGroup>

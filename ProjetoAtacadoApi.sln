@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.EF", "Atacado.EF\Atacado.EF.csproj", "{95D32F93-F96A-4EC3-9A06-68D43EE6A601}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Info", "3 - Camada de Info", "{F0B7265A-AC2B-4690-9816-C752C072CFB2}"
+	ProjectSection(SolutionItems) = preProject
+		Atacado.Service\RH\FuncionarioService.cs = Atacado.Service\RH\FuncionarioService.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Serviço", "2 - Camada de Serviço", "{CB8AA68F-1F32-428E-B0E1-9F9DEC597192}"
 EndProject
@@ -23,7 +26,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Service", "Atacado.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTeste", "ConsoleAppTeste\ConsoleAppTeste.csproj", "{676D806E-1B46-44E8-88D4-0648295EF8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtacadoApi", "AtacadoApi\AtacadoApi.csproj", "{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtacadoApi", "AtacadoApi\AtacadoApi.csproj", "{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Repository", "Atacado.Repository\Atacado.Repository.csproj", "{7C0FD059-1628-46C5-ADA4-665586C2730F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atacado.Business", "Atacado.Business\Atacado.Business.csproj", "{31E60CCA-9C93-4CA8-9413-B49C490069EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atacado.Envelope", "Atacado.Envelope\Atacado.Envelope.csproj", "{E7DADB78-B9F0-401B-B980-4B4DF8CFE584}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +68,18 @@ Global
 		{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0FD059-1628-46C5-ADA4-665586C2730F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0FD059-1628-46C5-ADA4-665586C2730F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0FD059-1628-46C5-ADA4-665586C2730F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0FD059-1628-46C5-ADA4-665586C2730F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E60CCA-9C93-4CA8-9413-B49C490069EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E60CCA-9C93-4CA8-9413-B49C490069EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E60CCA-9C93-4CA8-9413-B49C490069EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E60CCA-9C93-4CA8-9413-B49C490069EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DADB78-B9F0-401B-B980-4B4DF8CFE584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DADB78-B9F0-401B-B980-4B4DF8CFE584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DADB78-B9F0-401B-B980-4B4DF8CFE584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DADB78-B9F0-401B-B980-4B4DF8CFE584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +92,8 @@ Global
 		{2D212F74-BEE7-4414-AB77-CC0180C44218} = {CB8AA68F-1F32-428E-B0E1-9F9DEC597192}
 		{676D806E-1B46-44E8-88D4-0648295EF8B2} = {312AB294-4055-4BD7-96C1-E1D161C03F9B}
 		{43F25A9B-B29E-4CB5-8BC8-ED91EBDC9D5C} = {312AB294-4055-4BD7-96C1-E1D161C03F9B}
+		{31E60CCA-9C93-4CA8-9413-B49C490069EB} = {CB8AA68F-1F32-428E-B0E1-9F9DEC597192}
+		{E7DADB78-B9F0-401B-B980-4B4DF8CFE584} = {312AB294-4055-4BD7-96C1-E1D161C03F9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {603EA293-3B12-4FAD-8573-D085BE68DC8A}

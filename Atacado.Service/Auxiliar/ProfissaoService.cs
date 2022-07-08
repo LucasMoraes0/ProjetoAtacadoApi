@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Auxiliar
 {
-    public class ProfissaoService : BaseAncestralService<ProfissaoPoco>
+    public class ProfissaoService : BaseAncestralService<ProfissaoPoco, Profissao>
     {
         private ProfissaoMapper mapConfig;
         private ProfissaoDao dao;

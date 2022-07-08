@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Atacado.Service.Estoque
 {
-    public class ProdutoService : BaseAncestralService<ProdutoPoco>
+    public class ProdutoService : BaseAncestralService<ProdutoPoco, Produto>
     {
         private ProdutoMapper mapConfig;
         private ProdutoDao dao;
